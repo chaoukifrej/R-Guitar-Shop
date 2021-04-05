@@ -14,5 +14,6 @@
 
 * Respect complet du cahier des charges
 * Utilisation du SCSS (nesting, variables, mixins)
-* Site complétement Responsive et de maniere dynamique
-* Améliration de l'ergonomie avec content (Margin) Before Target
+* En bonus : 
+    * travail sur le responsive (Site complétement Responsive et de maniere dynamique)
+    * Amélioration de l'ergonomie avec content (Margin) Before Target
