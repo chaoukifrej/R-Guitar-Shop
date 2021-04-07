@@ -17,8 +17,8 @@ body {
   height: 120px;
   background-color: #b1494a;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #f2f2f2;
   letter-spacing: 10px;
   font-size: 1rem;
@@ -36,11 +36,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 65px;
   border-bottom: 10px solid #b1494a;
   padding: 0 20px;
@@ -55,7 +55,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 40%;
   letter-spacing: 4px;
 }
@@ -128,7 +128,7 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin-top: 6%;
   margin-bottom: 4%;
 }
@@ -139,10 +139,10 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding: 0 0 0 10vh;
 }
 
@@ -197,15 +197,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-preferred-size: auto;
-      flex-basis: auto;
+  flex-basis: auto;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   max-height: 700px;
 }
 
@@ -234,26 +234,26 @@ body {
 
 .enteteRight {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding-right: 10vh;
 }
 
 .nosgrattesContenant {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (25vh)[4];
-      grid-template-columns: repeat(4, 25vh);
+
+  grid-template-columns: repeat(4, 25vh);
   -ms-grid-rows: 40vh 3fr;
-      grid-template-rows: 40vh 3fr;
+  grid-template-rows: 40vh 3fr;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-column-gap: 110px;
-          column-gap: 110px;
+  column-gap: 110px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .nosgrattesContenant article {
@@ -262,7 +262,7 @@ body {
   grid-column: 1 / 5;
   width: 55%;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 .nosgrattesContent h3 {
@@ -296,7 +296,7 @@ body {
   grid-row: 2 / 3;
   text-align: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
   color: #464646;
   max-height: 75vh;
 }
@@ -335,8 +335,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .guitare span p:nth-child(odd) {
@@ -381,16 +381,16 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 50vw;
   margin-left: 25vw;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .contactForm label {
@@ -460,8 +460,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 50%;
 }
 
@@ -470,8 +470,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .contactForm .emailEtTel div {
@@ -480,8 +480,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 50%;
 }
 
@@ -491,14 +491,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .bouton {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 input[type="button"] {
@@ -623,8 +623,8 @@ input[type="button"] {
   .entete {
     padding-left: unset;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .espritContenant {
     display: -webkit-box;
@@ -632,8 +632,8 @@ input[type="button"] {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-top: 1%;
     margin-bottom: 10%;
   }
@@ -659,16 +659,16 @@ input[type="button"] {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     max-height: 0;
     width: 100%;
     margin-left: 5%;
@@ -684,7 +684,7 @@ input[type="button"] {
   }
   .nosgrattesContenant {
     -webkit-column-gap: 5%;
-            column-gap: 5%;
+    column-gap: 5%;
   }
 }
 
@@ -701,8 +701,8 @@ input[type="button"] {
   }
   .menuNav .menuLien button {
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     padding: 8px;
   }
   .intro h1 {
@@ -713,13 +713,13 @@ input[type="button"] {
   .entete {
     padding-left: unset;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .enteteRight {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding-right: unset;
   }
   .articlesImages img {
@@ -737,11 +737,11 @@ input[type="button"] {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 2fr 2fr;
-        grid-template-rows: 1fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
     -webkit-column-gap: 1%;
-            column-gap: 1%;
+    column-gap: 1%;
     margin-top: 0;
   }
   .nosgrattesContenant article {
@@ -776,16 +776,16 @@ input[type="button"] {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 95%;
     margin-left: 2.5%;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
   }
   .contactForm label {
     font-size: 0.8em;
@@ -841,8 +841,8 @@ input[type="button"] {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: unset;
   }
   .contactForm .emailEtTel {
@@ -851,11 +851,11 @@ input[type="button"] {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .contactForm .emailEtTel div {
     display: -webkit-box;
@@ -863,8 +863,8 @@ input[type="button"] {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: unset;
   }
   input[type="button"] {
@@ -887,15 +887,15 @@ input[type="button"] {
   .entete {
     padding-left: unset;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .menuNav {
     position: static;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: 130px;
   }
   .menuNav .menuLogo img {
@@ -904,13 +904,13 @@ input[type="button"] {
   .menuNav .menuLien {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
     margin-right: unset;
     margin-bottom: 10px;
@@ -948,15 +948,15 @@ input[type="button"] {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-top: 10%;
     margin-bottom: 4%;
   }
   .articlesContent {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
     padding: 10px;
   }
   .articlesContent #article1 h3::after {
@@ -970,10 +970,10 @@ input[type="button"] {
   }
   .articlesImages {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     max-height: 470px;
     width: 100%;
     margin: 20px 0 30px;
@@ -992,8 +992,8 @@ input[type="button"] {
   }
   .enteteRight {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding-right: unset;
   }
   .nosgrattesContenant {
@@ -1003,11 +1003,11 @@ input[type="button"] {
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .nosgrattesContenant article {
     width: 95%;
@@ -1035,7 +1035,7 @@ input[type="button"] {
     margin-top: 50px;
     height: 0.5px;
     -webkit-box-shadow: 0 1px 2px #4d4d4d;
-            box-shadow: 0 1px 2px #4d4d4d;
+    box-shadow: 0 1px 2px #4d4d4d;
   }
   .guitare:last-child::after {
     display: none;
@@ -1071,14 +1071,14 @@ input[type="button"] {
   }
   .entete {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
   }
   .articlesContent {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
     padding: 5%;
   }
   .articlesContent h3 {
@@ -1095,10 +1095,10 @@ input[type="button"] {
   }
   .articlesImages {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     max-height: 370px;
     width: 100%;
     margin: 20px 0 40px 0;
@@ -1124,8 +1124,8 @@ input[type="button"] {
 @media screen and (max-width: 321px) {
   .articlesContent {
     -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    -ms-flex-order: 2;
+    order: 2;
     padding: 1%;
   }
 }
